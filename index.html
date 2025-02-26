@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AI ChatBot | Moon AI</title>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_down" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+ <div class="chatbot-popup">
+        <div class="chat-header">
+            <div class="header-info">
+                <h2 class="logo-text">ChatBot</h2>
+            </div>
+        </div>
+    
+
+
+    <div class="chat-body">
+        <div class="message bot-message">
+            <h1 class="emoji-container">🤖</h1>
+            <div class="message-text">Hey there <br> How can I help you today?</div>
+        </div>
+    </div>
+
+    <div class="chat-footer">
+        <form action="#" class="chat-form">
+            <textarea placeholder="Message..." class="message-input" required></textarea>
+
+            <div class="chat-controls">
+                <button type="button" id="emogi-picker" class="emoji-containermaterial-symbols-rounded">😄</button>
+
+                <div class="file-upload-wrapper">
+                    <input type="file" accept="images/*" id="file-input" hidden>
+                    <img src="#">
+                    <button type="button" id="file-upload" class="emoji-container material-symbols-rounded">📎</button>
+                    <button type="button" id="file-cancel" class="emoji-container material-symbols-rounded">❎</button>
+
+                </div>
+                <button type="button" id="send-message" class="material-symbols-rounded">⬆️</button>
+            </div>
+        </form>
+    </div>
+ </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+
+ <script src="script.js"></script>
+</body>
+</html>
